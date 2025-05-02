@@ -1,8 +1,6 @@
+langchain==0.0.300
 fastapi
 uvicorn
-langchain
-langchain-community
-openai
 python-dotenv
 requests
-
+boto3

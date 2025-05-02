@@ -9,5 +9,5 @@ def home():
 
 @router.get("/ask")
 def ask_agent(prompt: str):
-    return {"response": run_agent(prompt)}
-
+    response = run_agent(prompt)
+    return {"response": response}
